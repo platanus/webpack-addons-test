@@ -5,7 +5,7 @@ ruby '2.7.2'
 
 gem 'devise'
 gem 'activeadmin'
-gem 'activeadmin_addons', github: "platanus/activeadmin_addons", branch: "master"
+gem 'activeadmin_addons', '1.8.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
