@@ -1,3 +1,16 @@
+GIT
+  remote: https://github.com/platanus/activeadmin_addons.git
+  revision: 4fda31a02c1a8c11bb448f8a8430a13bff15a20b
+  branch: master
+  specs:
+    activeadmin_addons (1.7.1)
+      active_material
+      railties
+      require_all
+      sassc
+      sassc-rails
+      xdan-datetimepicker-rails (~> 2.5.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -49,13 +62,6 @@ GEM
       kaminari (~> 1.0, >= 1.2.1)
       railties (>= 5.2, < 6.2)
       ransack (~> 2.1, >= 2.1.1)
-    activeadmin_addons (1.7.1)
-      active_material
-      railties
-      require_all (~> 1.5)
-      sass
-      select2-rails (~> 4.0)
-      xdan-datetimepicker-rails (~> 2.5.1)
     activejob (6.1.4)
       activesupport (= 6.1.4)
       globalid (>= 0.3.6)
@@ -205,17 +211,12 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.1.1)
-    require_all (1.5.0)
+    require_all (3.0.0)
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
     ruby2_keywords (0.0.4)
     rubyzip (2.3.0)
-    sass (3.7.4)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -226,7 +227,6 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    select2-rails (4.0.13)
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
@@ -278,7 +278,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin
-  activeadmin_addons
+  activeadmin_addons!
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
